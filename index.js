@@ -8,7 +8,7 @@ const kafka = new Kafka({
   ],
   retry: {
     initialRetryTime: 100,
-    retires: 8
+    retries: 8
   },
   ssl: true,
 });
